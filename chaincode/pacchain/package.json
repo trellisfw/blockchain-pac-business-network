@@ -1,7 +1,7 @@
 {
     "name": "pacchain",
-    "version": "0.0.1",
-    "description": "My Smart Contract",
+    "version": "0.1.1",
+    "description": "Trellis++ PAC Smart Contract",
     "main": "index.js",
     "engines": {
         "node": ">=8",
@@ -14,7 +14,7 @@
         "start": "fabric-chaincode-node start"
     },
     "engineStrict": true,
-    "author": "John Doe",
+    "author": "Servio Palacios",
     "license": "Apache-2.0",
     "dependencies": {
         "fabric-contract-api": "1.4.2",
