@@ -53,56 +53,56 @@
 ## Associate Identity
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/11_associate_identity.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/11_associate_identity.png">
 </p>
 
 ## Register User
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/12_register_user.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/12_register_user.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/13_register_user_peer.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/13_register_user_peer.png">
 </p>
 
 ## Organizations
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/14_organizations.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/14_organizations.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/15_create_MSP_definition.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/15_create_MSP_definition.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/17_identity_generated_warning.png">
+  <img height="100" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/17_identity_generated_warning.png">
 </p>
 
 
 ## add peer
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/18_add_peer.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/18_add_peer.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/19_add_peer.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/19_add_peer.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/20_add_peer.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/20_add_peer.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/21_add_peer.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/21_add_peer.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/22_add_peer.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/22_add_peer.png">
 </p>
 
 <p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/23_add_user_summary.png">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/23_add_user_summary.png">
 </p>
