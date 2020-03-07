@@ -98,6 +98,50 @@ cloud-functions/wsk/functions/fn       1.0.38
 
 
 
+```
+  ibmcloud login -a cloud.ibm.com -r us-south -g Default                                       07.03.20    15:54:46 
+API endpoint: https://cloud.ibm.com
+
+Email> email
+
+Password>
+Authenticating...
+OK
+
+Targeted account Username Account () <-> ###### 
+
+Targeted resource group Default
+
+Targeted region us-south
+
+
+API endpoint:      https://cloud.ibm.com
+Region:            us-south
+User:              username
+Account:           Username Account () <-> ######
+Resource group:    Default
+CF API endpoint:
+Org:
+Space:
+
+Tip: If you are managing Cloud Foundry applications and services
+- Use 'ibmcloud target --cf' to target Cloud Foundry org/space interactively, or use 'ibmcloud target --cf-api ENDPOINT -o ORG -s SPACE' to target the org/space.
+- Use 'ibmcloud cf' if you want to run the Cloud Foundry CLI with current IBM Cloud CLI context.
+
+
+New version 0.22.0 is available.
+Release notes: https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/tag/v0.22.0
+TIP: use 'ibmcloud config --check-version=false' to disable update check.
+
+Do you want to update? [y/N] > y
+
+Installing version '0.22.0'...
+Downloading...
+ 18.25 MiB / 18.25 MiB [======================================================================================] 100.00% 2m24s
+19134648 bytes downloaded
+Saved in /Users/maverickzhn/.bluemix/tmp/bx_484184040/IBM_Cloud_CLI_0.22.0.pkg
+```
+
 <p align="center">
   <img height="400" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/01_kubernetes_cluster.png">
 </p>
