@@ -39,7 +39,7 @@ Attempting to download the binary file...
 13634160 bytes downloaded
 Installing binary...
 OK
-Plug-in 'cloud-functions 1.0.38' was successfully installed into /Users/maverickzhn/.bluemix/plugins/cloud-functions. Use 'ibmcloud plugin show cloud-functions' to show its details.
+Plug-in 'cloud-functions 1.0.38' was successfully installed into /Users/username/.bluemix/plugins/cloud-functions. Use 'ibmcloud plugin show cloud-functions' to show its details.
 [install_plugins] Checking status of plugin: cloud-object-storage
 [install_plugins] Updating plugin 'cloud-object-storage' from version '1.1.0     Update Available'
 Plug-in 'cloud-object-storage 1.1.0' was installed.
@@ -71,7 +71,7 @@ Attempting to download the binary file...
 24548296 bytes downloaded
 Installing binary...
 OK
-Plug-in 'container-service 0.4.102' was successfully installed into /Users/maverickzhn/.bluemix/plugins/container-service. Use 'ibmcloud plugin show container-service' to show its details.
+Plug-in 'container-service 0.4.102' was successfully installed into /Users/username/.bluemix/plugins/container-service. Use 'ibmcloud plugin show container-service' to show its details.
 [install_plugins] Checking status of plugin: dev
 [install_plugins] Updating plugin 'dev' from version '2.4.0     Update Available'
 Plug-in 'dev 2.4.0' was installed.
@@ -159,7 +159,7 @@ Installing version '0.22.0'...
 Downloading...
  18.25 MiB / 18.25 MiB [======================================================================================] 100.00% 2m24s
 19134648 bytes downloaded
-Saved in /Users/maverickzhn/.bluemix/tmp/bx_484184040/IBM_Cloud_CLI_0.22.0.pkg
+Saved in /Users/username/.bluemix/tmp/bx_484184040/IBM_Cloud_CLI_0.22.0.pkg
 ```
 
 <p align="center">
