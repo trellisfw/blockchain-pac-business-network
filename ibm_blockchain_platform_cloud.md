@@ -1,5 +1,11 @@
 # Create Blockchain Network with IBM Hyperledger Fabric
 
+## upgrading account
+
+<p align="center">
+  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/00_00_accout_upgrade.png">
+</p>
+
 
 ## Kubernetes Cluster
 ```
@@ -96,7 +102,21 @@ cloud-functions/wsk/functions/fn       1.0.38
    pwd                                                                                          07.03.20    15:42:00 
 ```
 
+<p align="center">
+  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/00_01_kubernetes_service.png">
+</p>
 
+<p align="center">
+  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/00_02_kubernetes_cluster.png">
+</p>
+
+<p align="center">
+  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/00_03_cli_tools.png">
+</p>
+
+<p align="center">
+  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/00_03_cli_tools_installed.png">
+</p>
 
 ```
   ibmcloud login -a cloud.ibm.com -r us-south -g Default                                       07.03.20    15:54:46 
