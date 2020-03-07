@@ -2,6 +2,100 @@
 
 
 ## Kubernetes Cluster
+```
+  curl -sL https://ibm.biz/idt-installer | bash         07.03.20    15:29:53 
+[main] --==[ IBM Cloud Developer Tools for Linux/MacOS - Installer, v1.2.3 ]==--
+[install] Starting Installation...
+[install] Note: You may be prompted for your 'sudo' password during install.
+[install_darwin_deps] Checking for external dependency: brew
+[install_darwin_deps] Installing/updating external dependency: git
+[install_darwin_deps] Installing/updating external dependency: docker
+[install_darwin_deps] Installing/updating external dependency: kubectl
+[install_darwin_deps] Installing/updating external dependency: helm
+[install_ibmcloud] Updating existing IBM Cloud 'ibmcloud' CLI...
+Checking for updates...
+New version 0.22.0 is available.
+Release notes: https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/tag/v0.22.0
+
+Do you want to update now? [Y/n] >
+FAILED
+Could not read from input: EOF
+
+[install_ibmcloud] Running 'ibmcloud --version'...
+ibmcloud version 0.19.0+569dd56-2019-09-23T08:20:26+00:00
+[install_plugins] Installing/updating IBM Cloud CLI plugins...
+[install_plugins] Checking status of plugin: cloud-functions
+[install_plugins] Installing plugin 'cloud-functions'
+Looking up 'cloud-functions' from repository 'IBM Cloud'...
+Plug-in 'cloud-functions/wsk/functions/fn 1.0.38' found in repository 'IBM Cloud'
+Attempting to download the binary file...
+ 2.38 MiB / 13.00 MiB [======================>------------------------------------------------------------------------------- 2.45 MiB / 13.00 MiB [=======================>------------------------------------------------------------------------------ 2.48 MiB / 13.00 MiB [=======================>------------------------------------------------------------------------------ 2.55 MiB / 13.00 MiB [========================>----------------------------------------------------------------------------- 2.59 MiB / 13.00 MiB [========================>----------------------------------------------------------------------------- 2.66 MiB / 13.00 MiB [=========================>---------------------------------------------------------------------------- 2.71 MiB / 13.00 MiB [==========================>--------------------------------------------------------------------------- 2.79 MiB / 13.00 MiB [==========================>--------------------------------------------------------------------------- 2.84 MiB / 13.00 MiB [===========================>-------------------------------------------------------------------------- 2.89 MiB / 13.00 MiB [===========================>-------------------------------------------------------------------------- 2.94 MiB / 13.00 MiB [============================>------------------------------------------------------------------------- 13.00 MiB / 13.00 MiB [=======================================================================================] 100.00% 1m4s
+13634160 bytes downloaded
+Installing binary...
+OK
+Plug-in 'cloud-functions 1.0.38' was successfully installed into /Users/maverickzhn/.bluemix/plugins/cloud-functions. Use 'ibmcloud plugin show cloud-functions' to show its details.
+[install_plugins] Checking status of plugin: cloud-object-storage
+[install_plugins] Updating plugin 'cloud-object-storage' from version '1.1.0     Update Available'
+Plug-in 'cloud-object-storage 1.1.0' was installed.
+Checking upgrades for plug-in 'cloud-object-storage' from repository 'IBM Cloud'...
+Update 'cloud-object-storage 1.1.0' to 'cloud-object-storage 1.1.2'
+Attempting to download the binary file...
+ 14.94 MiB / 14.94 MiB [=======================================================================================] 100.00% 1m9s
+15663536 bytes downloaded
+Updating binary...
+OK
+The plug-in was successfully upgraded.
+[install_plugins] Checking status of plugin: container-registry
+[install_plugins] Updating plugin 'container-registry' from version '0.1.437   Update Available'
+Plug-in 'container-registry 0.1.437' was installed.
+Checking upgrades for plug-in 'container-registry' from repository 'IBM Cloud'...
+Update 'container-registry 0.1.437' to 'container-registry 0.1.454'
+Attempting to download the binary file...
+ 30.82 MiB / 30.82 MiB [======================================================================================] 100.00% 1m59s
+32314904 bytes downloaded
+Updating binary...
+OK
+The plug-in was successfully upgraded.
+[install_plugins] Checking status of plugin: container-service
+[install_plugins] Installing plugin 'container-service'
+Looking up 'container-service' from repository 'IBM Cloud'...
+Plug-in 'container-service/kubernetes-service 0.4.102' found in repository 'IBM Cloud'
+Attempting to download the binary file...
+ 23.41 MiB / 23.41 MiB [=======================================================================================] 100.00% 1m5s
+24548296 bytes downloaded
+Installing binary...
+OK
+Plug-in 'container-service 0.4.102' was successfully installed into /Users/maverickzhn/.bluemix/plugins/container-service. Use 'ibmcloud plugin show container-service' to show its details.
+[install_plugins] Checking status of plugin: dev
+[install_plugins] Updating plugin 'dev' from version '2.4.0     Update Available'
+Plug-in 'dev 2.4.0' was installed.
+Checking upgrades for plug-in 'dev' from repository 'IBM Cloud'...
+Update 'dev 2.4.0' to 'dev 2.4.6'
+Attempting to download the binary file...
+ 27.35 MiB / 27.35 MiB [=======================================================================================] 100.00% 1m9s
+28676416 bytes downloaded
+Updating binary...
+OK
+The plug-in was successfully upgraded.
+[install_plugins] Running 'ibmcloud plugin list'...
+Listing installed plug-ins...
+
+Plugin Name                            Version   Status
+cloud-object-storage                   1.1.2
+container-registry                     0.1.454
+container-service/kubernetes-service   0.4.102
+dev                                    2.4.6
+cloud-functions/wsk/functions/fn       1.0.38
+
+[install_plugins] Finished installing/updating plugins
+[env_setup] WARN: Please restart your shell to enable 'ic' alias for ibmcloud!
+[install] Install finished.
+[main] --==[ Total time: 420 seconds ]==--
+
+  ~/repos/trellisfw/trellisfw-blockchain-pac-business-network     master   
+   pwd                                                                                          07.03.20    15:42:00 
+```
+
 
 
 <p align="center">
@@ -106,3 +200,6 @@
 <p align="center">
   <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/23_add_user_summary.png">
 </p>
+
+tedder drones
+starks
