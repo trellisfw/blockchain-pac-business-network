@@ -2,9 +2,6 @@
 
 ## upgrading account
 
-<p align="center">
-  <img height="300" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/00_00_accout_upgrade.png">
-</p>
 
 
 ## Kubernetes Cluster
