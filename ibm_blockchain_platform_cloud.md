@@ -262,5 +262,6 @@ Saved in /Users/username/.bluemix/tmp/bx_484184040/IBM_Cloud_CLI_0.22.0.pkg
   <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/23_add_user_summary.png">
 </p>
 
-tedder drones
-starks
+<p align="center">
+  <img height="350" src="https://raw.githubusercontent.com/trellisfw/trellisfw-blockchain-pac-business-network/master/assets/images/blockchain_tutorial/50_fabric_architecture.png">
+</p>
