@@ -7,7 +7,7 @@
 const { Contract } = require('fabric-contract-api');
 
 //importing PAC class
-let PAC = requite('./PAC.js');
+let PAC = require('./PAC.js');
 
 class PacContract extends Contract {
 
@@ -99,6 +99,51 @@ class PacContract extends Contract {
             throw new Error(`The pac ${pacId} does not exist`);
         }
         await ctx.stub.deleteState(pacId);
+    }
+
+	/**
+     * Evaluate a queryString
+     *
+     * @param {Context} ctx the transaction context
+     * @param {String} queryString the query string to be evaluated
+    */
+    async queryWithQueryString(ctx, queryString) {
+
+        console.log('query String');
+        console.log(JSON.stringify(queryString));
+
+        let resultsIterator = await ctx.stub.getQueryResult(queryString);
+
+        let allResults = [];
+
+        // eslint-disable-next-line no-constant-condition
+        while (true) {
+            let res = await resultsIterator.next();
+
+            if (res.value && res.value.value.toString()) {
+                let jsonRes = {};
+
+                console.log(res.value.value.toString('utf8'));
+
+                jsonRes.Key = res.value.key;
+
+                try {
+                    jsonRes.Record = JSON.parse(res.value.value.toString('utf8'));
+                } catch (err) {
+                    console.log(err);
+                    jsonRes.Record = res.value.value.toString('utf8');
+                }
+
+                allResults.push(jsonRes);
+            }
+            if (res.done) {
+                console.log('end of data');
+                await resultsIterator.close();
+                console.info(allResults);
+                console.log(JSON.stringify(allResults));
+                return JSON.stringify(allResults);
+            }
+        }
     }
 
 }
