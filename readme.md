@@ -1,4 +1,4 @@
-# Trellis++
+# AGAPECert
   >A Practical, Auditable, Privacy-Preserving Certification Framework with Oblivious Smart Contracts
 
 # Hyperledger Composer Business Network Definition
